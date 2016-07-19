@@ -1,8 +1,11 @@
-# ungleich-learning-programming
+ ungleich-learning-programming
 
-## capitals.py
+ HEAD
+ capitals.py
 
-## avg-capitals.py
+
+ ungleich/master
+ avg-capitals.py
 
 Write a program that prints the average population size of Cantonal
 capitals of Switzerland.
@@ -25,3 +28,67 @@ There should be roughly 26 capitals in your code.
 
 Hint: Solving http://learnpythonthehardway.org/book/ex4.html before
 might be helpful.
+
+time-to-glarus.py
+
+Imagine you travel from Basel to Hemmiken and many other locations and
+finally you arrive in Schwanden. Create a python program that prints
+the total sum of the travelling time required, if you travel via the
+following locations:
+
+ * Hannover
+ * Basel
+ * Hemmiken
+ * Gossau ZH
+ * Turbenthal
+ * Zollikerberg
+ * Uster
+ * Zürich Wollishofen
+ * Luchsingen
+ * Schwanden
+
+Also print the time it needs for every additional step.
+
+Output should be similar to this:
+
+  Hannover to Basel: x minutes
+  Travelling to Hemmiken: y minutes
+  ...
+  Travelling all the way to Schwanden: z minutes
+
+Hint:
+
+You can find the travelling time by train on http://www.sbb.ch/.
+
+ everywhere-to-glarus.py
+
+Imagine you want to travel from Zürich or other places Glarus.
+Save the time from the following locations in a variable, print the
+time required for every location and print the average time required.
+
+Locations:
+
+ * Zürich HB
+ * Chur
+ * Geneva
+ * Bern
+ * Winterthur
+ * Aarau
+ * Zug
+ * Luzern
+ * Bellinzona
+ * Schaffhausen
+ * Olten
+
+Hint:
+
+You can find the travelling time by train on http://www.sbb.ch/.
+
+
+ smart-avg-capitals.py
+
+Recapitulate what you have done in "avg-capitals.py" above. Now
+instead of using single variables, use a dictionary.
+
+Hint: Solving http://learnpythonthehardway.org/book/ex39.html
+before might be helpful.
